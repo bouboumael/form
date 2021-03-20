@@ -24,7 +24,7 @@
             <label  for="email">email :</label>
             <input  type="email"  id="email"  name="email">
         </div>
-        <label for="subject"></label>
+        <label for="subject">Subject :</label>
         <select name="subject" id="subject">
             <option value="">Choose an subject</option>
             <option value="technical">Technical problem</option>
