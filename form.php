@@ -7,25 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <form  action="thanks.php"  method="post">
+    <form  action="thanks.php"  method="POST">
         <div>
             <label  for="lastname">Lastname :</label>
-            <input  type="text"  id="lastname"  name="lastname">
+            <input  type="text"  id="lastname"  name="lastname" required>
         </div>
         <div>
             <label  for="firstname">Firstname :</label>
-            <input  type="text"  id="firstname"  name="firstname">
+            <input  type="text"  id="firstname"  name="firstname" required>
         </div>
         <div>
             <label  for="phone">Phone :</label>
-            <input  type="text"  id="phone"  name="phone">
+            <input  type="text"  id="phone"  name="phone" required>
         </div>
         <div>
             <label  for="email">email :</label>
-            <input  type="email"  id="email"  name="email">
+            <input  type="email"  id="email"  name="email" required>
         </div>
         <label for="subject">Subject :</label>
-        <select name="subject" id="subject">
+        <select name="subject" id="subject" required>
             <option value="">Choose an subject</option>
             <option value="technical">Technical problem</option>
             <option value="alert">Important alert</option>
@@ -33,7 +33,7 @@
         </select>
         <div>
             <label  for="message">Message :</label>
-            <textarea  id="message"  name="message"></textarea>
+            <textarea  id="message"  name="message"></textarea required>
         </div>
         <div  class="button">
             <button  type="submit">Send</button>
